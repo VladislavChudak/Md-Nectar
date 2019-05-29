@@ -2,7 +2,8 @@
 
 ## To run the project:
 
-``` git clone git@github.com:VladislavChudak/Md-Nectar.git
+``` 
+ git clone git@github.com:VladislavChudak/Md-Nectar.git
  cd Md-Nectar
  npm install 
  npm start  
