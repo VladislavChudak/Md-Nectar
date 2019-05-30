@@ -1,0 +1,102 @@
+{
+    "extends": "react-app",
+    "rules": {
+        "array-bracket-spacing": 0,
+
+        "arrow-spacing": "error",
+
+        "comma-dangle": [
+            "error",
+            "never"
+        ],
+
+        "curly": "error",
+
+        "indent": [
+            "error",
+            4,
+            {
+                "ArrayExpression": 1,
+                "ImportDeclaration": 1,
+                "MemberExpression": 1,
+                "ObjectExpression": 1,
+                "SwitchCase": 1
+            }
+        ],
+
+        "jsx-quotes": [
+            "error",
+            "prefer-double"
+        ],
+
+        "key-spacing": [
+            "error",
+            {
+                "beforeColon": false
+            }
+        ],
+
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+
+        "object-curly-spacing": [
+            "error",
+            "always"
+        ],
+
+        "padded-blocks": [
+            "error",
+            "never"
+        ],
+
+        "padding-line-between-statements": [
+            "error",
+            {
+                "blankLine": "always",
+                "prev": "block-like",
+                "next": "*"
+            },
+            {
+                "blankLine": "always",
+                "prev": "*",
+                "next": "block-like"
+            },
+            {
+                "blankLine": "always",
+                "prev": "*",
+                "next": "return"
+            }
+        ],
+
+        "prefer-template": "error",
+
+        "quotes": [
+            "error",
+            "single"
+        ],
+
+        "react/jsx-closing-bracket-location": [
+            2,
+            {
+                "location": "tag-aligned"
+            }
+        ],
+
+        "react/jsx-max-props-per-line": [
+            2,
+            {
+                "maximum": 1,
+                "when": "always"
+            }
+        ],
+
+        "semi": [
+            "error",
+            "always"
+        ],
+
+        "template-curly-spacing": ["error", "always"]
+    }
+}

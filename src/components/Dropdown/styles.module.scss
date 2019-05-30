@@ -1,0 +1,42 @@
+.dropdown {
+    position: relative;
+}
+
+.dropdownBox {
+    z-index: 999;
+    position: absolute;
+    width: 300px;
+    border-radius: 14px;
+    border: 1px solid black;
+    margin: 15px 0;
+    background-color: white;
+}
+
+.dropdownList {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    margin: 5px;
+
+    .dropdownListItem {
+        padding: 5px;
+    }
+}
+
+.active {
+    background-color: #fff3b1;
+    color: #6c5ce7;
+}
+
+.buttons {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexEnd {
+    justify-content: flex-end;
+    color:red;
+}

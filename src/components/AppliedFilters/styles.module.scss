@@ -1,0 +1,20 @@
+.appliedFilters {
+    display: flex;
+}
+
+.label {
+    margin-top: 10px;
+}
+
+.filtersList {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+        padding: 5px;
+    }
+}
+
+.remove {
+    padding: 10px;
+}
